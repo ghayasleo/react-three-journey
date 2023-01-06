@@ -6,7 +6,7 @@ import Experience from "./experience"
 const root = ReactDOM.createRoot(document.querySelector('#root'))
 
 root.render(
-  <Canvas>
+  <Canvas camera={{ fov: 45, position: [- 4, 3, 6] }}>
     <Experience />
   </Canvas>
 )
